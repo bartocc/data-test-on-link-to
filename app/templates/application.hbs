@@ -1,3 +1,8 @@
 <h2 id="title">Welcome to Ember</h2>
 
+{{#link-to "index" data-test-foo}}
+  This text should be green if there is no `loading` class on this link
+  and red otherwise
+{{/link-to}}
+
 {{outlet}}
